@@ -134,7 +134,8 @@
     <script>NProgress.set(0.4);</script>
     
     <main id="main" role="main">
-      <article id="page-"
+      <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<article id="page-"
   class="post article white-box article-type-page animated fade-in-top"
   itemscope itemprop="blogPost">
   <section class="post-header article-header">
@@ -202,6 +203,20 @@
 
     </div>
   </section>
+  <head>
+    ...
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+    ...
+</head>
+    <div id="vcomment"></div>
+    <script>
+        new Valine({
+            el: '#vcomment' ,
+            appId: 'Sbbd64E4MjGVODZGv7LZivTm-gzGzoHsz',
+            appKey: '1CSq7lVahTE5DyIatFORHduB'
+        });
+    </script>
 
   <!-- 
       
