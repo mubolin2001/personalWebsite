@@ -104,6 +104,11 @@ a:hover {
   margin: 0 auto;
 }
 
+.post-list-highlighted {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 .post {
   background: rgb(255, 255, 255);
   padding: 20px 35px;
@@ -169,6 +174,10 @@ a:hover {
 }
 .post .icon-tag {
   font-size: 12px;
+}
+
+.pin {
+  margin-top: 10px;
 }
 
 .article {
